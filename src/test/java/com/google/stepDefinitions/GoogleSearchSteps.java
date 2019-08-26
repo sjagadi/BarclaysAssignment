@@ -12,26 +12,6 @@ import org.testng.Assert;
 public class GoogleSearchSteps extends BaseTest
 {
     GooglePage googlePage;
-//    @Given("Barclays employee open google search page")
-//    public void barclays_employee_open_google_search_page()
-//    {
-//
-//
-//        googlePage = new GooglePage();
-//    }
-//
-//    @When("search for {string} keyword")
-//    public void search_for_keyword(String keyword)
-//    {
-//        googlePage.searchText("barclays");
-//    }
-//
-//    @Then("the first result on the page shows {string}")
-//    public void the_first_result_on_the_page_shows(String expectedBarclaysUrl)
-//    {
-//
-//    }
-
 
     @Given("I have {string} browser opened")
     public void iHaveBrowserOpened(String browser)
